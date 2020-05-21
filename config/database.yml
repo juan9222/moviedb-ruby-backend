@@ -12,10 +12,10 @@
 default: &default
   adapter: mysql2
   encoding: utf8mb4
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  pool: 5
   username: root
-  password: root
-  host: http://35.232.195.17
+  password: Noir0611*
+  host: localhost
 
 development:
   <<: *default
